@@ -26,7 +26,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![image](https://github.com/user-attachments/assets/dbfc57cd-5d2a-433a-b949-050e3cca34ea)
+![image](https://github.com/user-attachments/assets/721cb608-e625-44e9-9197-c22222e2fa88)
+
+
 
 ### Links
 
