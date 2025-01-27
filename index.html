@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Frontend Mentor | Intro component with sign up form</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="item1">
+        <h1 class="heading">
+          Learn to code by<br />
+          watching others
+        </h1>
+        <p>
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+      <div class="item2">
+        <div class="trial">
+          <span>Try it free 7 days</span> then $20/mo. thereafter
+        </div>
+        <form class="signup-form">
+          <div class="form-card">
+            <div class="input-container">
+              <input
+                type="text"
+                placeholder="First Name"
+                class="inputs"
+                id="fname"
+                name="first-name"
+                autocomplete="given-name"
+              />
+              <span class="errortext" hidden>First Name cannot be empty</span>
+            </div>
+
+            <div class="input-container">
+              <input
+                type="text"
+                placeholder="Last Name"
+                class="inputs"
+                id="lname"
+                name="last-name"
+                autocomplete="family-name"
+              />
+              <span class="errortext" hidden>Last Name cannot be empty</span>
+            </div>
+
+            <div class="input-container">
+              <input
+                type="email"
+                placeholder="Email Address"
+                class="inputs"
+                id="email"
+                name="email"
+                autocomplete="email"
+              />
+              <span class="errortext" hidden>Email cannot be empty</span>
+            </div>
+
+            <div class="input-container">
+              <input
+                type="password"
+                placeholder="Password"
+                class="inputs"
+                id="password"
+                name="password"
+                autocomplete="new-password"
+                minlength="8"
+              />
+              <span class="errortext" hidden>Password cannot be empty</span>
+            </div>
+            <button class="btn" type="submit">CLAIM YOUR FREE TRIAL</button>
+            <p class="terms">
+              By clicking the button, you are agreeing to our
+              <span> Terms and Services</span>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
